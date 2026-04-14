@@ -1,0 +1,5 @@
+FROM gemma4
+PARAMETER temperature 0.1
+PARAMETER num_ctx 4096
+
+SYSTEM Extract the specified information for all apartment ads and present it in a structured JSON format.
